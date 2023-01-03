@@ -39,6 +39,7 @@ export class Tab2Page {
       this.dataLocal.cargarStorage();
     }, 2500);
   }
+
   async presentActionSheet() {
     const actionSheet = await this.actionSheetCtrl.create({
       header: '¿Seguro que deseas eliminar?',
